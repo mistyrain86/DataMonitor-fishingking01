@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="소스 파일">
@@ -13,5 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{A1B2C3D4-1234-5678-ABCD-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{A1B2C3D4-1234-5678-ABCD-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{A1B2C3D4-1234-5678-ABCD-000000000003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{A1B2C3D4-1234-5678-ABCD-000000000004}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\SampleRepository.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\OrderRepository.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\MonitorController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="View\DashboardView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model\OrderStatus.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Sample.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Order.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\SampleRepository.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\OrderRepository.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\MonitorController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="View\DashboardView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\JsonReader.h">
+      <Filter>Util</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
